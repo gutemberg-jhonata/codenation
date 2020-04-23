@@ -1,0 +1,350 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 10px;
+}
+
+header {
+	background: url('../img/capa-madmax2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+	position: relative;
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+header::after {
+	content: "";
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.6) 0%,
+		rgba(0, 212, 255, 0) 75%
+	);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	z-index: 2;
+}
+
+.menu ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul li {
+	margin: 0px 25px;
+}
+
+.menu ul li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 1.3em;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+.menu ul li a:hover {
+	color: #d7b426;
+}
+
+.profile {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.profile img {
+	border-radius: 100%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    height: 45px;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 45px;
+}
+
+.profile-name {
+	color: #ffffff;
+	font-size: 1.3em;
+    font-weight: bold;
+}
+
+.content {
+	position: relative;
+	width: 960px;
+	z-index: 2;
+}
+
+.content h1 {
+	font-size: 6.5em;
+    font-weight: bold;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 0;
+}
+
+.content ul {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	margin: 15px 0 30px;
+	padding: 0;
+	font-size: 13px;
+}
+
+.content ul li a {
+	color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.content ul li a:hover {
+	color: #d7b426;
+}
+
+.content-button {
+	display: inline-block;
+	padding: 15px 50px;
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: none;
+    background-color: #e4bb23;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+
+.content-button:hover {
+	filter: brightness(0.8);
+}
+
+.content-button i {
+	font-size: 1.5em;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+}
+
+.content-info {
+	padding: 20px 0px;
+	font-size: 1.4em;
+	color: #ffffff;
+}
+
+.content-info p:last-child {
+	color: #bc9a1d;
+}
+
+.container {
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+}
+
+main {
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+main nav ui {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	padding: 0 20px;
+}
+
+main nav ui li {
+	margin: 0 20px;
+}
+
+main nav ui li a {
+	display: inline-block;
+	color: #e4bb23;
+	padding: 25px 0;
+	text-decoration: none;
+	font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+main nav ui li:hover {
+	box-shadow: inset 0 -1px 0 #e4bb23;
+}
+
+.cards {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	padding: 20px 0;
+}
+
+.card {
+	margin-bottom: 30px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	width: 24%;
+	overflow: hidden;
+}
+
+.card-header {
+	position: relative;
+}
+
+.card-header img {
+	width: 100%;
+}
+
+.card-content {
+	padding: 10px;
+	width: 100%;
+}
+
+.card-play {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 80px 20px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	transition: all 0.2s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+}
+
+.card:hover .card-play {
+	opacity: 1;
+}
+
+.card-play h1 {
+	color: #e4bb23;
+    font-size: 2em;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.card-play i {
+	color: #fff;
+    font-size: 5em;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-play i:hover {
+	color: #e4bb23;
+}
+
+.card-content h2 {
+	font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.card-content a {
+	text-decoration: none;
+    font-size: 1.2em;
+	color: #e4bb23;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+.card-content a:hover {
+	box-shadow: inset 0 -1px 0 #e4bb23;
+}
+
+.card-favorite {
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+}
+
+.card-favorite i {
+	color: #ccc;
+    cursor: pointer;
+}
+
+.card-favorite i:hover {
+	color: #e74c3c;
+}
+
+.card-favorite div {
+	font-weight: bold;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+
+footer ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	align-items: center;
+}
+
+footer ul li {
+	margin: 0 20px;
+}
+
+footer ul li:last-child {
+	margin-right: 0;
+}
+
+footer ul li a {
+	font-size: 2.5em;
+	text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+footer ul li a i {
+    color: #bababa;
+}
+
+.fa-twitter:hover {
+	color: #55acee;
+}
+
+.fa-facebook-official:hover {
+	color: #3b5998;
+}
+
+.fa-instagram:hover {
+	color: #e95950;
+}
