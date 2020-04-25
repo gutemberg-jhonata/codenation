@@ -1,3 +1,13 @@
 codenation.exe
-desafio-0/node_modules
-react/hora-do-codigo/modulo-3/calculadora/node_modules
+node_modules
+.gradle
+.idea
+.settings
+bin
+build
+gradle
+.project
+build.gradle
+gradlew
+gradlew.bat
+stdout.txt
