@@ -1,0 +1,18 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "calculadora nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Jhonata Gutemberg",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^25.4.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
