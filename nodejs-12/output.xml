@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="16" failures="0" time="1.763">
+  <testsuite name="Find Products" errors="0" failures="0" skipped="0" timestamp="2020-05-01T02:07:46" time="0.938" tests="16">
+    <testcase classname="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 1" name="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 1" time="0.003">
+    </testcase>
+    <testcase classname="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 2" name="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 2" time="0.001">
+    </testcase>
+    <testcase classname="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 3" name="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 3" time="0">
+    </testcase>
+    <testcase classname="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 4" name="Find Products Deve retornar os produtos a partir do array de IDs do exemplo 4" time="0.001">
+    </testcase>
+    <testcase classname="Find Promotion Deve retornar a promoção do exemplo 1" name="Find Promotion Deve retornar a promoção do exemplo 1" time="0">
+    </testcase>
+    <testcase classname="Find Promotion Deve retornar a promoção do exemplo 2" name="Find Promotion Deve retornar a promoção do exemplo 2" time="0.001">
+    </testcase>
+    <testcase classname="Find Promotion Deve retornar a promoção do exemplo 3" name="Find Promotion Deve retornar a promoção do exemplo 3" time="0">
+    </testcase>
+    <testcase classname="Find Promotion Deve retornar a promoção do exemplo 4" name="Find Promotion Deve retornar a promoção do exemplo 4" time="0">
+    </testcase>
+    <testcase classname="Find Price Deve retornar os preços do exemplo 1" name="Find Price Deve retornar os preços do exemplo 1" time="0">
+    </testcase>
+    <testcase classname="Find Price Deve retornar os preços do exemplo 2" name="Find Price Deve retornar os preços do exemplo 2" time="0.001">
+    </testcase>
+    <testcase classname="Find Price Deve retornar os preços do exemplo 3" name="Find Price Deve retornar os preços do exemplo 3" time="0.001">
+    </testcase>
+    <testcase classname="Find Price Deve retornar os preços do exemplo 4" name="Find Price Deve retornar os preços do exemplo 4" time="0">
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 1" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 1" time="0.001">
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 2" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 2" time="0">
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 3" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 3" time="0">
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 4" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 4" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
